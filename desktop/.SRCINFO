@@ -1,0 +1,22 @@
+pkgbase = omgitsaheadcrab-desktop
+	pkgdesc = Desktop configuration for omgitsaheadcrab systems
+	pkgver = 0.0.1
+	pkgrel = 1
+	url = https://github.com/omgitsaheadcrab/arch-pkgs
+	arch = any
+	groups = omgitsaheadcrab
+	license = MIT
+	depends = darktable
+	depends = lib32-libva-mesa-driver
+	depends = lib32-mesa-vdpau
+	depends = lib32-vulkan-icd-loader
+	depends = lib32-vulkan-radeon
+	depends = libratbag
+	depends = libva-mesa-driver
+	depends = mesa-vdpau
+	depends = piper
+	depends = plasma-meta
+	depends = vulkan-radeon
+
+pkgname = omgitsaheadcrab-desktop
+

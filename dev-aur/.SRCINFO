@@ -1,0 +1,16 @@
+pkgbase = omgitsaheadcrab-dev-aur
+	pkgdesc = Development configuration for omgitsaheadcrab systems (AUR)
+	pkgver = 0.0.1
+	pkgrel = 1
+	url = https://github.com/omgitsaheadcrab/arch-pkgs
+	arch = any
+	groups = omgitsaheadcrab
+	license = MIT
+	depends = cpr-git
+	depends = popsql
+	depends = postman
+	depends = quicklisp
+	depends = tkdiff
+
+pkgname = omgitsaheadcrab-dev-aur
+

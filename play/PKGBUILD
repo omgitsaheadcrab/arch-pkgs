@@ -1,0 +1,13 @@
+# Maintainer: Tobais Backer Dirks <omgitsaheadcrab@gmail.com>
+pkgname=omgitsaheadcrab-play
+pkgver=0.1
+pkgrel=1
+pkgdesc="Entertainment configuration for omgitsaheadcrab systems"
+arch=('any')
+url="https://github.com/omgitsaheadcrab/arch-pkgs"
+license=('MIT')
+groups=('omgitsaheadcrab')
+depends=(
+    'lutris' 'retroarch' 'retroarch-assets-xmb' 'steam' 'steam-native-runtime'
+    'supertuxkart'
+)

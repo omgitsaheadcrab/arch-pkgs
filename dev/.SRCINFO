@@ -1,0 +1,34 @@
+pkgbase = omgitsaheadcrab-dev
+	pkgdesc = Development configuration for omgitsaheadcrab systems
+	pkgver = 0.0.1
+	pkgrel = 1
+	url = https://github.com/omgitsaheadcrab/arch-pkgs
+	arch = any
+	groups = omgitsaheadcrab
+	license = MIT
+	depends = bash-language-server
+	depends = boost
+	depends = catch2
+	depends = cmake
+	depends = docker
+	depends = docker-compose
+	depends = dos2unix
+	depends = eigen
+	depends = gcc-fortran
+	depends = guile
+	depends = jupyter-notebook
+	depends = nlohmann-json
+	depends = pandoc
+	depends = python
+	depends = python-pip
+	depends = python-black
+	depends = python-isort
+	depends = python2
+	depends = python2-pip
+	depends = sbcl
+	depends = strace
+	depends = tmux
+	depends = tmuxp
+
+pkgname = omgitsaheadcrab-dev
+

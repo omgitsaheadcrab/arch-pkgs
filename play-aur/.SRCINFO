@@ -1,0 +1,13 @@
+pkgbase = omgitsaheadcrab-play-aur
+	pkgdesc = Entertainment configuration for omgitsaheadcrab systems (AUR)
+	pkgver = 0.0.1
+	pkgrel = 1
+	url = https://github.com/omgitsaheadcrab/arch-pkgs
+	arch = any
+	groups = omgitsaheadcrab
+	license = MIT
+	depends = emulationstation
+	depends = minecraft-launcher
+
+pkgname = omgitsaheadcrab-play-aur
+

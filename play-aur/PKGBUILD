@@ -1,0 +1,12 @@
+# Maintainer: Tobais Backer Dirks <omgitsaheadcrab@gmail.com>
+pkgname=omgitsaheadcrab-play-aur
+pkgver=0.1
+pkgrel=1
+pkgdesc="Entertainment configuration for omgitsaheadcrab systems (AUR)"
+arch=('any')
+url="https://github.com/omgitsaheadcrab/arch-pkgs"
+license=('MIT')
+groups=('omgitsaheadcrab')
+depends=(
+    'emulationstation' 'minecraft-launcher'
+)

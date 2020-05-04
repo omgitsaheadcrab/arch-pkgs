@@ -1,0 +1,46 @@
+# Maintainer: Tobais Backer Dirks <omgitsaheadcrab@gmail.com>
+pkgname=omgitsaheadcrab-base
+pkgver=0.1
+pkgrel=1
+pkgdesc="Base configuration for omgitsaheadcrab systems"
+arch=('any')
+url="https://github.com/omgitsaheadcrab/arch-pkgs"
+license=('MIT')
+groups=('omgitsaheadcrab')
+
+install=omgitsaheadcrab-base.install
+rootdir=$PWD
+
+# base
+depends=(
+    'bash' 'bzip2' 'coreutils' 'file' 'filesystem' 'findutils' 'gawk'
+    'gcc-libs' 'gettext' 'glibc' 'grep' 'gzip' 'iproute2' 'iputils' 'licenses'
+    'pacman' 'pciutils' 'procps-ng' 'psmisc' 'sed' 'shadow' 'systemd'
+    'systemd-sysvcompat' 'tar' 'util-linux' 'xz'
+)
+
+# base-devel
+depends+=(
+    'autoconf' 'automake' 'binutils' 'bison' 'fakeroot' 'file' 'findutils'
+    'flex' 'gawk' 'gcc' 'gettext' 'grep' 'groff' 'gzip' 'libtool' 'm4' 'make'
+    'pacman' 'patch' 'pkgconf' 'sed' 'sudo' 'texinfo' 'which'
+)
+
+depends+=(
+    'bash-completion' 'dhcpcd' 'diffutils' 'efibootmgr' 'evince' 'gimp' 'git'
+    'gparted' 'grub' 'htop' 'hunspell' 'hunspell-en_GB' 'hunspell-en_US'
+    'imagemagick' 'less' 'libreoffice-fresh' 'linux' 'linux-headers'
+    'lostfiles' 'lshw' 'man-db' 'man-pages' 'namcap' 'nano' 'neofetch' 'netctl'
+    'networkmanager' 'noto-fonts' 'noto-fonts-cjk' 'noto-fonts-emoji'
+    'noto-fonts-extra' 'openssh' 'pacman-contrib' 'pulseaudio'
+    'pulseaudio-alsa' 'pulseaudio-bluetooth' 'pulseaudio-equalizer'
+    'pulseaudio-jack' 'pulseaudio-lirc' 'pulseaudio-zeroconf' 'qbittorrent'
+    'reflector' 'rofi' 'scrot' 'simplescreenrecorder' 'terminator' 'ttf-hack'
+    'ttf-droid' 'ttf-font-awesome' 'ttf-liberation' 'wget' 'wine' 'winetricks'
+    'xorg' 'xorg-server''xsel' 'zip'
+)
+
+package() {
+    cp -a "$rootdir/files/"* "$pkgdir"
+    chmod -R 0750 "$pkgdir/etc/sudoers.d"
+}

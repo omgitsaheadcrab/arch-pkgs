@@ -1,0 +1,14 @@
+# Maintainer: Tobais Backer Dirks <omgitsaheadcrab@gmail.com>
+pkgname=omgitsaheadcrab-desktop
+pkgver=0.1
+pkgrel=1
+pkgdesc="Desktop configuration for omgitsaheadcrab systems"
+arch=('any')
+url="https://github.com/omgitsaheadcrab/arch-pkgs"
+license=('MIT')
+groups=('omgitsaheadcrab')
+depends=(
+    'darktable' 'lib32-libva-mesa-driver' 'lib32-mesa-vdpau'
+    'lib32-vulkan-icd-loader' 'lib32-vulkan-radeon' 'libratbag'
+    'libva-mesa-driver' 'mesa-vdpau' 'piper' 'plasma-meta' 'vulkan-radeon'
+)

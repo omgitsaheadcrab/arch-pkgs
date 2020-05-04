@@ -1,0 +1,18 @@
+pkgbase = omgitsaheadcrab-base-aur
+	pkgdesc = Base configuration for omgitsaheadcrab systems (AUR)
+	pkgver = 0.0.1
+	pkgrel = 1
+	url = https://github.com/omgitsaheadcrab/arch-pkgs
+	arch = any
+	groups = omgitsaheadcrab
+	license = MIT
+	depends = bitwarden-bin
+	depends = dropbox
+	depends = emacs-git
+	depends = google-chrome
+	depends = slack-desktop
+	depends = spotify
+	depends = yay
+
+pkgname = omgitsaheadcrab-base-aur
+

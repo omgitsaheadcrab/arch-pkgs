@@ -1,0 +1,15 @@
+# Maintainer: Tobais Backer Dirks <omgitsaheadcrab@gmail.com>
+pkgname=omgitsaheadcrab-dev
+pkgver=0.1
+pkgrel=1
+pkgdesc="Development configuration for omgitsaheadcrab systems"
+arch=('any')
+url="https://github.com/omgitsaheadcrab/arch-pkgs"
+license=('MIT')
+groups=('omgitsaheadcrab')
+depends=(
+    'bash-language-server' 'boost' 'catch2' 'cmake' 'docker' 'docker-compose'
+    'dos2unix' 'eigen' 'gcc-fortran' 'guile' 'jupyter-notebook' 'nlohmann-json'
+    'pandoc' 'python' 'python-pip' 'python-black' 'python-isort' 'python2'
+    'python2-pip' 'sbcl' 'strace' 'tmux' 'tmuxp'
+)
