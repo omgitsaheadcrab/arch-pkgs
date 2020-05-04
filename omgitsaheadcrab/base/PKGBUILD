@@ -9,7 +9,7 @@ license=('MIT')
 groups=('omgitsaheadcrab')
 
 install=omgitsaheadcrab-base.install
-rootdir=$PWD
+_rootdir=$PWD
 
 # base
 depends=(
@@ -26,6 +26,18 @@ depends+=(
     'pacman' 'patch' 'pkgconf' 'sed' 'sudo' 'texinfo' 'which'
 )
 
+# xorg
+depends+=(
+    'xorg-server' 'xorg-bdftopcf' 'xorg-iceauth' 'xorg-luit' 'xorg-mkfontscale'
+    'xorg-sessreg' 'xorg-setxkbmap' 'xorg-smproxy' 'xorg-x11perf' 'xorg-xauth'
+    'xorg-xbacklight' 'xorg-xcmsdb' 'xorg-xcursorgen' 'xorg-xdpyinfo'
+    'xorg-xdriinfo' 'xorg-xev' 'xorg-xgamma' 'xorg-xhost' 'xorg-xinput'
+    'xorg-xkbcomp' 'xorg-xkbevd' 'xorg-xkbutils' 'xorg-xkill' 'xorg-xlsatoms'
+    'xorg-xlsclients' 'xorg-xmodmap' 'xorg-xpr' 'xorg-xprop' 'xorg-xrandr'
+    'xorg-xrdb' 'xorg-xrefresh' 'xorg-xset' 'xorg-xsetroot' 'xorg-xvinfo'
+    'xorg-xwd' 'xorg-xwininfo' 'xorg-xwud'
+)
+
 depends+=(
     'bash-completion' 'dhcpcd' 'diffutils' 'efibootmgr' 'evince' 'gimp' 'git'
     'gparted' 'grub' 'htop' 'hunspell' 'hunspell-en_GB' 'hunspell-en_US'
@@ -37,10 +49,10 @@ depends+=(
     'pulseaudio-jack' 'pulseaudio-lirc' 'pulseaudio-zeroconf' 'qbittorrent'
     'reflector' 'rofi' 'scrot' 'simplescreenrecorder' 'terminator' 'ttf-hack'
     'ttf-droid' 'ttf-font-awesome' 'ttf-liberation' 'wget' 'wine' 'winetricks'
-    'xorg' 'xorg-server''xsel' 'zip'
+    'xsel' 'zip'
 )
 
 package() {
-    cp -a "$rootdir/files/"* "$pkgdir"
+    cp -a "$_rootdir/files/"* "$pkgdir"
     chmod -R 0750 "$pkgdir/etc/sudoers.d"
 }
