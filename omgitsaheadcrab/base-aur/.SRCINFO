@@ -1,6 +1,6 @@
 pkgbase = omgitsaheadcrab-base-aur
 	pkgdesc = Base configuration for omgitsaheadcrab systems (AUR)
-	pkgver = 0.0.1
+	pkgver = 0.2
 	pkgrel = 1
 	url = https://github.com/omgitsaheadcrab/arch-pkgs
 	arch = any
@@ -10,8 +10,10 @@ pkgbase = omgitsaheadcrab-base-aur
 	depends = dropbox
 	depends = emacs-git
 	depends = google-chrome
+	depends = rofi-dmenu
 	depends = slack-desktop
 	depends = spotify
+	depends = xbindkeys
 	depends = yay
 
 pkgname = omgitsaheadcrab-base-aur

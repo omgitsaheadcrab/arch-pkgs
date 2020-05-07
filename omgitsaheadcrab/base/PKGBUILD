@@ -1,6 +1,6 @@
 # Maintainer: Tobais Backer Dirks <omgitsaheadcrab@gmail.com>
 pkgname=omgitsaheadcrab-base
-pkgver=0.1
+pkgver=0.2
 pkgrel=1
 pkgdesc="Base configuration for omgitsaheadcrab systems"
 arch=('any')
@@ -21,9 +21,9 @@ depends=(
 
 # base-devel
 depends+=(
-    'autoconf' 'automake' 'binutils' 'bison' 'fakeroot' 'file' 'findutils'
-    'flex' 'gawk' 'gcc' 'gettext' 'grep' 'groff' 'gzip' 'libtool' 'm4' 'make'
-    'pacman' 'patch' 'pkgconf' 'sed' 'sudo' 'texinfo' 'which'
+    'autoconf' 'automake' 'binutils' 'bison' 'fakeroot' 'flex' 'gawk' 'gcc'
+    'gettext' 'groff' 'libtool' 'm4' 'make' 'patch' 'pkgconf' 'sudo' 'texinfo'
+    'which'
 )
 
 # xorg
@@ -39,16 +39,21 @@ depends+=(
 )
 
 depends+=(
-    'bash-completion' 'dhcpcd' 'diffutils' 'efibootmgr' 'evince' 'gimp' 'git'
-    'gparted' 'grub' 'htop' 'hunspell' 'hunspell-en_GB' 'hunspell-en_US'
-    'imagemagick' 'less' 'libreoffice-fresh' 'linux' 'linux-headers'
-    'lostfiles' 'lshw' 'man-db' 'man-pages' 'namcap' 'nano' 'neofetch' 'netctl'
-    'networkmanager' 'noto-fonts' 'noto-fonts-cjk' 'noto-fonts-emoji'
-    'noto-fonts-extra' 'openssh' 'pacman-contrib' 'pulseaudio'
-    'pulseaudio-alsa' 'pulseaudio-bluetooth' 'pulseaudio-equalizer'
-    'pulseaudio-jack' 'pulseaudio-lirc' 'pulseaudio-zeroconf' 'qbittorrent'
-    'reflector' 'rofi' 'scrot' 'simplescreenrecorder' 'terminator' 'ttf-hack'
-    'ttf-droid' 'ttf-font-awesome' 'ttf-liberation' 'wget' 'wine' 'winetricks'
+    'alsa-utils' 'arch-install-scripts' 'bash-completion' 'calibre'
+    'cryptsetup' 'dhcpcd' 'diffutils' 'e2fsprogs' 'efibootmgr' 'eog' 'evince'
+    'exfat-utils' 'gimp' 'git' 'gparted' 'grub' 'htop' 'hunspell'
+    'hunspell-en_GB' 'hunspell-en_US' 'imagemagick' 'inetutils' 'jfsutils'
+    'keychain' 'less' 'libreoffice-fresh' 'linux' 'linux-headers' 'llvm'
+    'logrotate' 'lostfiles' 'lshw' 'lvm2' 'man-db' 'man-pages' 'namcap' 'nano'
+    'neofetch' 'netctl' 'networkmanager' 'noto-fonts' 'noto-fonts-cjk'
+    'noto-fonts-emoji' 'noto-fonts-extra' 'ntp' 'openmp' 'openssh'
+    'pacman-contrib' 'pulseaudio' 'pulseaudio-alsa' 'pulseaudio-bluetooth'
+    'pulseaudio-equalizer' 'pulseaudio-jack' 'pulseaudio-lirc'
+    'pulseaudio-zeroconf' 'qbittorrent' 'reflector' 'reiserfsprogs' 'rofi'
+    'screen' 'scrot' 'simplescreenrecorder' 'sysfsutils' 'terminator'
+    'terminus-font' 'ttf-dejavu' 'ttf-droid' 'ttf-font-awesome' 'ttf-hack'
+    'ttf-ionicons' 'ttf-liberation' 'udisks2' 'unzip' 'vlc' 'wget' 'wine'
+    'winetricks' 'xclip' 'xfsprogs' 'xorg-twm' 'xorg-xclock' 'xorg-xinit'
     'xsel' 'zip'
 )
 

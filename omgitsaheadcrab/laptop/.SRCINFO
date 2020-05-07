@@ -1,0 +1,37 @@
+pkgbase = omgitsaheadcrab-laptop
+	pkgdesc = Laptop configuration for omgitsaheadcrab systems
+	pkgver = 0.1
+	pkgrel = 1
+	url = https://github.com/omgitsaheadcrab/arch-pkgs
+	arch = any
+	groups = omgitsaheadcrab
+	license = MIT
+	depends = arandr
+	depends = arc-gtk-theme
+	depends = arc-icon-theme
+	depends = blueman
+	depends = bluez-utils
+	depends = feh
+	depends = gnome-themes-extra
+	depends = gsimplecal
+	depends = gtk-engine-murrine
+	depends = gtk-engines
+	depends = i3-gaps
+	depends = lxappearance
+	depends = lxdm-gtk3
+	depends = nemo
+	depends = nemo-fileroller
+	depends = network-manager-applet
+	depends = nitrogen
+	depends = pavucontrol
+	depends = perl-anyevent-i3
+	depends = picom
+	depends = playerctl
+	depends = polkit-gnome
+	depends = siji-git
+	depends = vulkan-intel
+	depends = xf86-input-synaptics
+	depends = xf86-video-intel
+
+pkgname = omgitsaheadcrab-laptop
+
