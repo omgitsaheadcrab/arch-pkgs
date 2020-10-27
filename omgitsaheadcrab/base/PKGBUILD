@@ -1,6 +1,6 @@
 # Maintainer: Tobais Backer Dirks <omgitsaheadcrab@gmail.com>
 pkgname=omgitsaheadcrab-base
-pkgver=0.2
+pkgver=0.3
 pkgrel=1
 pkgdesc="Base configuration for omgitsaheadcrab systems"
 arch=('any')
@@ -28,7 +28,7 @@ depends+=(
 
 # xorg
 depends+=(
-    'xorg-server' 'xorg-bdftopcf' 'xorg-iceauth' 'xorg-luit' 'xorg-mkfontscale'
+    'xorg-server' 'xorg-bdftopcf' 'xorg-iceauth' 'xorg-mkfontscale'
     'xorg-sessreg' 'xorg-setxkbmap' 'xorg-smproxy' 'xorg-x11perf' 'xorg-xauth'
     'xorg-xbacklight' 'xorg-xcmsdb' 'xorg-xcursorgen' 'xorg-xdpyinfo'
     'xorg-xdriinfo' 'xorg-xev' 'xorg-xgamma' 'xorg-xhost' 'xorg-xinput'
@@ -44,8 +44,8 @@ depends+=(
     'exfat-utils' 'gimp' 'git' 'gparted' 'grub' 'htop' 'hunspell'
     'hunspell-en_GB' 'hunspell-en_US' 'imagemagick' 'inetutils' 'jfsutils'
     'keychain' 'less' 'libreoffice-fresh' 'linux' 'linux-headers' 'llvm'
-    'logrotate' 'lostfiles' 'lshw' 'lvm2' 'man-db' 'man-pages' 'namcap' 'nano'
-    'neofetch' 'netctl' 'networkmanager' 'noto-fonts' 'noto-fonts-cjk'
+    'logrotate' 'lostfiles' 'lshw' 'luit' 'lvm2' 'man-db' 'man-pages' 'namcap'
+    'nano' 'neofetch' 'netctl' 'networkmanager' 'noto-fonts' 'noto-fonts-cjk'
     'noto-fonts-emoji' 'noto-fonts-extra' 'ntp' 'openmp' 'openssh'
     'pacman-contrib' 'pulseaudio' 'pulseaudio-alsa' 'pulseaudio-bluetooth'
     'pulseaudio-equalizer' 'pulseaudio-jack' 'pulseaudio-lirc'

@@ -1,6 +1,6 @@
 pkgbase = omgitsaheadcrab-desktop
 	pkgdesc = Desktop configuration for omgitsaheadcrab systems
-	pkgver = 0.1
+	pkgver = 0.2
 	pkgrel = 1
 	url = https://github.com/omgitsaheadcrab/arch-pkgs
 	arch = any
@@ -42,7 +42,6 @@ pkgbase = omgitsaheadcrab-desktop
 	depends = plasma-workspace-wallpapers
 	depends = powerdevil
 	depends = sddm-kcm
-	depends = user-manager
 	depends = xdg-desktop-portal-kde
 	depends = breeze-grub
 
