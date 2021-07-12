@@ -1,6 +1,6 @@
 # Maintainer: Tobais Backer Dirks <omgitsaheadcrab@gmail.com>
 pkgname=omgitsaheadcrab-base
-pkgver=0.3
+pkgver=0.5
 pkgrel=1
 pkgdesc="Base configuration for omgitsaheadcrab systems"
 arch=('any')
@@ -11,19 +11,11 @@ groups=('omgitsaheadcrab')
 install=omgitsaheadcrab-base.install
 _rootdir=$PWD
 
-# base
-depends=(
-    'bash' 'bzip2' 'coreutils' 'file' 'filesystem' 'findutils' 'gawk'
-    'gcc-libs' 'gettext' 'glibc' 'grep' 'gzip' 'iproute2' 'iputils' 'licenses'
-    'pacman' 'pciutils' 'procps-ng' 'psmisc' 'sed' 'shadow' 'systemd'
-    'systemd-sysvcompat' 'tar' 'util-linux' 'xz'
-)
-
 # base-devel
 depends+=(
-    'autoconf' 'automake' 'binutils' 'bison' 'fakeroot' 'flex' 'gawk' 'gcc'
-    'gettext' 'groff' 'libtool' 'm4' 'make' 'patch' 'pkgconf' 'sudo' 'texinfo'
-    'which'
+    'autoconf' 'automake' 'binutils' 'bison' 'fakeroot' 'file' 'findutils'
+    'flex' 'gawk' 'gcc' 'gettext' 'groff' 'libtool' 'm4' 'make' 'patch'
+    'pkgconf' 'sudo' 'texinfo' 'which'
 )
 
 # xorg
@@ -43,18 +35,18 @@ depends+=(
     'cryptsetup' 'dhcpcd' 'diffutils' 'e2fsprogs' 'efibootmgr' 'eog' 'evince'
     'exfat-utils' 'gimp' 'git' 'gparted' 'grub' 'htop' 'hunspell'
     'hunspell-en_GB' 'hunspell-en_US' 'imagemagick' 'inetutils' 'jfsutils'
-    'keychain' 'less' 'libreoffice-fresh' 'linux' 'linux-headers' 'llvm'
-    'logrotate' 'lostfiles' 'lshw' 'luit' 'lvm2' 'man-db' 'man-pages' 'namcap'
-    'nano' 'neofetch' 'netctl' 'networkmanager' 'noto-fonts' 'noto-fonts-cjk'
-    'noto-fonts-emoji' 'noto-fonts-extra' 'ntp' 'openmp' 'openssh'
-    'pacman-contrib' 'pulseaudio' 'pulseaudio-alsa' 'pulseaudio-bluetooth'
-    'pulseaudio-equalizer' 'pulseaudio-jack' 'pulseaudio-lirc'
-    'pulseaudio-zeroconf' 'qbittorrent' 'reflector' 'reiserfsprogs' 'rofi'
-    'screen' 'scrot' 'simplescreenrecorder' 'sysfsutils' 'terminator'
-    'terminus-font' 'ttf-dejavu' 'ttf-droid' 'ttf-font-awesome' 'ttf-hack'
-    'ttf-ionicons' 'ttf-liberation' 'udisks2' 'unzip' 'vlc' 'wget' 'wine'
-    'winetricks' 'xclip' 'xfsprogs' 'xorg-twm' 'xorg-xclock' 'xorg-xinit'
-    'xsel' 'zip'
+    'keychain' 'less' 'libreoffice-fresh' 'linux' 'linux-firmware'
+    'linux-headers' 'llvm' 'logrotate' 'lostfiles' 'lshw' 'luit' 'lvm2'
+    'man-db' 'man-pages' 'namcap' 'nano' 'neofetch' 'netctl' 'networkmanager'
+    'noto-fonts' 'noto-fonts-cjk' 'noto-fonts-emoji' 'noto-fonts-extra' 'ntp'
+    'openmp' 'openssh' 'pacman-contrib' 'pulseaudio' 'pulseaudio-alsa'
+    'pulseaudio-bluetooth' 'pulseaudio-equalizer' 'pulseaudio-jack'
+    'pulseaudio-lirc' 'pulseaudio-zeroconf' 'qbittorrent' 'reflector'
+    'reiserfsprogs' 'rofi' 'rclone' 'rsync' 'unrar' 'screen' 'scrot'
+    'simplescreenrecorder' 'sysfsutils' 'terminator' 'terminus-font'
+    'ttf-dejavu' 'ttf-droid' 'ttf-font-awesome' 'ttf-hack' 'ttf-ionicons'
+    'ttf-liberation' 'udisks2' 'unzip' 'vlc' 'wget' 'wine' 'winetricks' 'xclip'
+    'xfsprogs' 'xorg-twm' 'xorg-xclock' 'xorg-xinit' 'xsel' 'zip'
 )
 
 package() {

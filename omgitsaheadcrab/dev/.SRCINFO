@@ -1,6 +1,6 @@
 pkgbase = omgitsaheadcrab-dev
 	pkgdesc = Development configuration for omgitsaheadcrab systems
-	pkgver = 0.2
+	pkgver = 0.3
 	pkgrel = 1
 	url = https://github.com/omgitsaheadcrab/arch-pkgs
 	arch = any
@@ -15,6 +15,7 @@ pkgbase = omgitsaheadcrab-dev
 	depends = docker-compose
 	depends = dos2unix
 	depends = eigen
+	depends = extra-cmake-modules
 	depends = gcc-fortran
 	depends = gcc-libs
 	depends = guile
@@ -25,13 +26,13 @@ pkgbase = omgitsaheadcrab-dev
 	depends = python
 	depends = python-black
 	depends = python-isort
+	depends = pyenv
 	depends = python-pip
-	depends = python2
-	depends = python2-pip
 	depends = sbcl
 	depends = strace
 	depends = tmux
 	depends = tmuxp
+	depends = tree
 
 pkgname = omgitsaheadcrab-dev
 

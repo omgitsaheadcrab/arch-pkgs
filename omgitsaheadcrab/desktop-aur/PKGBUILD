@@ -1,6 +1,6 @@
 # Maintainer: Tobais Backer Dirks <omgitsaheadcrab@gmail.com>
 pkgname=omgitsaheadcrab-desktop-aur
-pkgver=0.1
+pkgver=0.4
 pkgrel=1
 pkgdesc="Desktop configuration for omgitsaheadcrab systems (AUR)"
 arch=('any')
@@ -8,6 +8,8 @@ url="https://github.com/omgitsaheadcrab/arch-pkgs"
 license=('MIT')
 groups=('omgitsaheadcrab')
 depends=(
-    'bcm20702a1-firmware' 'btchip-udev' 'numix-circle-icon-theme-git'
-    'opencorsairlink-testing-git' 'phoronix-test-suite' 'plex-media-server'
+    'archlinux-lxdm-theme-full' 'bcm20702a1-firmware' 'betterlockscreen'
+    'btchip-udev' 'endpoint-verification-chrome' 'numix-circle-icon-theme-git'
+    'numix-icon-theme-git' 'phoronix-test-suite' 'plex-media-server' 'polybar'
+    'steam-fonts' 'wd719x-firmware'
 )
