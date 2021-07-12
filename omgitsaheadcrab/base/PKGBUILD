@@ -1,6 +1,6 @@
 # Maintainer: Tobais Backer Dirks <omgitsaheadcrab@gmail.com>
 pkgname=omgitsaheadcrab-base
-pkgver=0.5
+pkgver=0.6
 pkgrel=1
 pkgdesc="Base configuration for omgitsaheadcrab systems"
 arch=('any')
@@ -31,22 +31,24 @@ depends+=(
 )
 
 depends+=(
-    'alsa-utils' 'arch-install-scripts' 'bash-completion' 'calibre'
-    'cryptsetup' 'dhcpcd' 'diffutils' 'e2fsprogs' 'efibootmgr' 'eog' 'evince'
-    'exfat-utils' 'gimp' 'git' 'gparted' 'grub' 'htop' 'hunspell'
-    'hunspell-en_GB' 'hunspell-en_US' 'imagemagick' 'inetutils' 'jfsutils'
-    'keychain' 'less' 'libreoffice-fresh' 'linux' 'linux-firmware'
-    'linux-headers' 'llvm' 'logrotate' 'lostfiles' 'lshw' 'luit' 'lvm2'
-    'man-db' 'man-pages' 'namcap' 'nano' 'neofetch' 'netctl' 'networkmanager'
-    'noto-fonts' 'noto-fonts-cjk' 'noto-fonts-emoji' 'noto-fonts-extra' 'ntp'
-    'openmp' 'openssh' 'pacman-contrib' 'pulseaudio' 'pulseaudio-alsa'
+    'alsa-utils' 'arch-install-scripts' 'bash-completion' 'biber' 'calibre'
+    'cryptsetup' 'dhcpcd' 'diffutils' 'dunst' 'e2fsprogs' 'efibootmgr' 'eog'
+    'evince' 'exfat-utils' 'gimp' 'git' 'gparted' 'grub' 'gvfs-smb' 'htop'
+    'hunspell' 'hunspell-en_GB' 'hunspell-en_US' 'imagemagick' 'inetutils'
+    'isync' 'jfsutils' 'keychain' 'less' 'libreoffice-fresh' 'linux'
+    'linux-firmware' 'linux-headers' 'llvm' 'logrotate' 'lostfiles' 'lshw'
+    'luit' 'lvm2' 'maim' 'man-db' 'man-pages' 'micro' 'mtools' 'namcap' 'nano'
+    'neofetch' 'netctl' 'nemo-share' 'networkmanager' 'notmuch' 'noto-fonts'
+    'noto-fonts-cjk' 'noto-fonts-emoji' 'noto-fonts-extra' 'ntp' 'openmp'
+    'openssh' 'pacman-contrib' 'pulseaudio' 'pulseaudio-alsa'
     'pulseaudio-bluetooth' 'pulseaudio-equalizer' 'pulseaudio-jack'
     'pulseaudio-lirc' 'pulseaudio-zeroconf' 'qbittorrent' 'reflector'
-    'reiserfsprogs' 'rofi' 'rclone' 'rsync' 'unrar' 'screen' 'scrot'
+    'reiserfsprogs' 'rofi' 'rclone' 'rsync' 'unrar' 'samba' 'screen' 'scrot'
     'simplescreenrecorder' 'sysfsutils' 'terminator' 'terminus-font'
     'ttf-dejavu' 'ttf-droid' 'ttf-font-awesome' 'ttf-hack' 'ttf-ionicons'
-    'ttf-liberation' 'udisks2' 'unzip' 'vlc' 'wget' 'wine' 'winetricks' 'xclip'
-    'xfsprogs' 'xorg-twm' 'xorg-xclock' 'xorg-xinit' 'xsel' 'zip'
+    'ttf-liberation' 'udisks2' 'unzip' 'vlc' 'wget' 'wine' 'winetricks'
+    'xdg-user-dirs' 'xclip' 'xfsprogs' 'xorg-twm' 'xorg-xclock' 'xorg-xinit'
+    'xsel' 'zip'
 )
 
 package() {

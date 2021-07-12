@@ -1,6 +1,6 @@
 # Maintainer: Tobais Backer Dirks <omgitsaheadcrab@gmail.com>
 pkgname=omgitsaheadcrab-desktop
-pkgver=0.3
+pkgver=0.4
 pkgrel=1
 pkgdesc="Desktop configuration for omgitsaheadcrab systems"
 arch=('any')
@@ -14,6 +14,6 @@ depends=(
     'lib32-mesa-vdpau' 'lib32-vulkan-icd-loader' 'lib32-vulkan-radeon'
     'libratbag' 'libva-mesa-driver' 'lxappearance' 'lxdm-gtk3' 'mesa-vdpau'
     'nemo' 'nemo-fileroller' 'network-manager-applet' 'nitrogen' 'pavucontrol'
-    'perl-anyevent-i3' 'picom' 'piper' 'playerctl' 'polkit-gnome' 'vulkan-radeon' 
+    'perl-anyevent-i3' 'picom' 'piper' 'playerctl' 'polkit-gnome'
+    'vulkan-radeon' 'xf86-video-amdgpu'
 )
-

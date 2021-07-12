@@ -1,6 +1,6 @@
 # Maintainer: Tobais Backer Dirks <omgitsaheadcrab@gmail.com>
 pkgname=omgitsaheadcrab-dev
-pkgver=0.3
+pkgver=0.4
 pkgrel=1
 pkgdesc="Development configuration for omgitsaheadcrab systems"
 arch=('any')
@@ -8,9 +8,13 @@ url="https://github.com/omgitsaheadcrab/arch-pkgs"
 license=('MIT')
 groups=('omgitsaheadcrab')
 depends=(
-    'bash-language-server' 'boost' 'catch2' 'clang' 'cmake' 'docker'
-    'docker-compose' 'dos2unix' 'eigen' 'extra-cmake-modules' 'gcc-fortran'
-    'gcc-libs' 'guile' 'jupyter-notebook' 'nlohmann-json' 'pandoc' 'perl'
-    'python' 'python-black' 'python-isort' 'pyenv' 'python-pip' 'sbcl'
-    'strace' 'tmux' 'tmuxp' 'tree'
+    'bash-language-server' 'boost' 'catch2' 'clang' 'cmake' 'cppcheck' 'ctags'
+    'docker' 'docker-compose' 'dos2unix' 'eigen' 'extra-cmake-modules'
+    'gcc-fortran' 'gcc-libs' 'gdb' 'gnuplot' 'guile' 'jupyter-notebook'
+    'languagetool' 'nlohmann-json' 'pandoc' 'perl'  'pyenv' 'python'
+    'python-black' 'python-cpplint' 'python-isort' 'python-pip' 'sbcl'
+    'shellcheck' 'strace' 'texlive-bibtexextra' 'texlive-core'
+    'texlive-fontsextra' 'texlive-formatsextra' 'texlive-latexextra'
+    'texlive-pstricks' 'texlive-science' 'tmux' 'tmuxp' 'tree' 'valgrind'
+    'virtualbox'
 )
