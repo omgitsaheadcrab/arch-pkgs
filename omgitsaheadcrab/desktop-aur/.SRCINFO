@@ -1,16 +1,22 @@
 pkgbase = omgitsaheadcrab-desktop-aur
 	pkgdesc = Desktop configuration for omgitsaheadcrab systems (AUR)
-	pkgver = 0.2
+	pkgver = 0.4
 	pkgrel = 1
 	url = https://github.com/omgitsaheadcrab/arch-pkgs
 	arch = any
 	groups = omgitsaheadcrab
 	license = MIT
+	depends = archlinux-lxdm-theme-full
 	depends = bcm20702a1-firmware
+	depends = betterlockscreen
 	depends = btchip-udev
+	depends = endpoint-verification-chrome
 	depends = numix-circle-icon-theme-git
+	depends = numix-icon-theme-git
 	depends = phoronix-test-suite
 	depends = plex-media-server
+	depends = polybar
+	depends = steam-fonts
+	depends = wd719x-firmware
 
 pkgname = omgitsaheadcrab-desktop-aur
-
