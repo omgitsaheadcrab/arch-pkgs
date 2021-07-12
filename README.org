@@ -3,27 +3,35 @@ systems.
 
 * Tips and Tricks
 
-To list all dependencies from a package use the following command
-
-#+begin_src bash
-  pacman -Si packages | awk -F'[:<=>]' '/^Depends/ {print $2}'
-#+end_src
-
-Then run the following on the result to mark all packages as dependencies
-
-#+begin_src bash
-  yay --asdeps -D $(pacman -Si packages | awk -F'[:<=>]' '/^Depends/ {print $2}')
-#+end_src
-
-To build your packages
+** To build your packages
 
 #+begin_src bash
   makepkg -s
 #+end_src
 
-To initailize and update a local repository
+** To initailize and update a local repository
 
 #+begin_src bash
   ln -s omgitsaheadcrab/*/*.zst .
   repo-add localrepo.db.tar.zst *.zst
+#+end_src
+
+** To add the local repository to ~pacman.conf~
+
+#+begin_src
+  [localrepo]
+  SigLevel = Optional TrustAll
+  Server = file:///home/odin/Documents/Programming/AUR/omgitsaheadcrab
+#+end_src
+
+** To list all dependencies from a package use the following command
+
+#+begin_src bash
+  pacman -Si packages | awk -F'[:<=>]' '/^Depends/ {print $2}'
+#+end_src
+
+** To mark all packages dependencies from a package as dependencies
+
+#+begin_src bash
+  yay --asdeps -D $(pacman -Si packages | awk -F'[:<=>]' '/^Depends/ {print $2}')
 #+end_src
