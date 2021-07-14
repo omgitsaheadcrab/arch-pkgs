@@ -1,7 +1,7 @@
 # Maintainer: Tobais Backer Dirks <omgitsaheadcrab@gmail.com>
 pkgname=omgitsaheadcrab-dev
 pkgver=0.4
-pkgrel=1
+pkgrel=2
 pkgdesc="Development configuration for omgitsaheadcrab systems"
 arch=('any')
 url="https://github.com/omgitsaheadcrab/arch-pkgs"
@@ -12,9 +12,8 @@ depends=(
     'docker' 'docker-compose' 'dos2unix' 'eigen' 'extra-cmake-modules'
     'gcc-fortran' 'gcc-libs' 'gdb' 'gnuplot' 'guile' 'jupyter-notebook'
     'languagetool' 'nlohmann-json' 'pandoc' 'perl'  'pyenv' 'python'
-    'python-black' 'python-cpplint' 'python-isort' 'python-pip' 'sbcl'
-    'shellcheck' 'strace' 'texlive-bibtexextra' 'texlive-core'
-    'texlive-fontsextra' 'texlive-formatsextra' 'texlive-latexextra'
-    'texlive-pstricks' 'texlive-science' 'tmux' 'tmuxp' 'tree' 'valgrind'
-    'virtualbox'
+    'python-cpplint' 'python-pip' 'sbcl' 'shellcheck' 'strace'
+    'texlive-bibtexextra' 'texlive-core' 'texlive-fontsextra'
+    'texlive-formatsextra' 'texlive-latexextra' 'texlive-pstricks'
+    'texlive-science' 'tmux' 'tmuxp' 'tree' 'valgrind' 'virtualbox'
 )
