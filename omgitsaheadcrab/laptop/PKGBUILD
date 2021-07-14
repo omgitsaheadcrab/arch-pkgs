@@ -1,18 +1,12 @@
 # Maintainer: Tobais Backer Dirks <omgitsaheadcrab@gmail.com>
 pkgname=omgitsaheadcrab-laptop
-pkgver=0.1
+pkgver=0.2
 pkgrel=1
 pkgdesc="Laptop configuration for omgitsaheadcrab systems"
 arch=('any')
 url="https://github.com/omgitsaheadcrab/arch-pkgs"
 license=('MIT')
 groups=('omgitsaheadcrab')
-
 depends=(
-    'arandr' 'arc-gtk-theme' 'arc-icon-theme' 'blueman' 'bluez-utils' 'feh'
-    'gnome-themes-extra' 'gsimplecal' 'gtk-engine-murrine' 'gtk-engines'
-    'i3-gaps' 'lxappearance' 'lxdm-gtk3' 'nemo' 'nemo-fileroller'
-    'network-manager-applet' 'nitrogen' 'pavucontrol' 'perl-anyevent-i3'
-    'picom' 'playerctl' 'polkit-gnome' 'siji-git' 'vulkan-intel'
-    'xf86-input-synaptics' 'xf86-video-intel'
+    'vulkan-intel' 'xf86-input-synaptics' 'xf86-video-intel'
 )

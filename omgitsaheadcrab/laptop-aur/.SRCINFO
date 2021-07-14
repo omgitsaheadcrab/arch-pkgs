@@ -1,19 +1,12 @@
 pkgbase = omgitsaheadcrab-laptop-aur
 	pkgdesc = Laptop configuration for omgitsaheadcrab systems (AUR)
-	pkgver = 0.1
+	pkgver = 0.2
 	pkgrel = 1
 	url = https://github.com/omgitsaheadcrab/arch-pkgs
 	arch = any
 	groups = omgitsaheadcrab
 	license = MIT
 	depends = Aic94xx-firmware
-	depends = archlinux-lxdm-theme-full
-	depends = betterlockscreen
-	depends = numix-icon-theme-git
-	depends = polybar
-	depends = steam-fonts
 	depends = thinkfan-git
-	depends = wd719x-firmware
 
 pkgname = omgitsaheadcrab-laptop-aur
-

@@ -1,15 +1,12 @@
 # Maintainer: Tobais Backer Dirks <omgitsaheadcrab@gmail.com>
 pkgname=omgitsaheadcrab-laptop-aur
-pkgver=0.1
+pkgver=0.2
 pkgrel=1
 pkgdesc="Laptop configuration for omgitsaheadcrab systems (AUR)"
 arch=('any')
 url="https://github.com/omgitsaheadcrab/arch-pkgs"
 license=('MIT')
 groups=('omgitsaheadcrab')
-
 depends=(
-    'Aic94xx-firmware' 'archlinux-lxdm-theme-full' 'betterlockscreen'
-    'numix-icon-theme-git' 'polybar' 'steam-fonts' 'thinkfan-git'
-    'wd719x-firmware'
+    'Aic94xx-firmware' 'thinkfan-git'
 )
