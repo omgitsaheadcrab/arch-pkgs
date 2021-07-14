@@ -1,7 +1,7 @@
 pkgbase = omgitsaheadcrab-dev-aur
 	pkgdesc = Development configuration for omgitsaheadcrab systems (AUR)
 	pkgver = 0.3
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/omgitsaheadcrab/arch-pkgs
 	arch = any
 	groups = omgitsaheadcrab
@@ -10,6 +10,7 @@ pkgbase = omgitsaheadcrab-dev-aur
 	depends = ccls-git
 	depends = cpr-git
 	depends = nodejs-http-server
+	depends = nodejs-tern
 	depends = postman-bin
 	depends = pyenv-virtualenv
 	depends = quicklisp
