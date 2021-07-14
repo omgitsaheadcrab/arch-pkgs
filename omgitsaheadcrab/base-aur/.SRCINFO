@@ -1,7 +1,7 @@
 pkgbase = omgitsaheadcrab-base-aur
 	pkgdesc = Base configuration for omgitsaheadcrab systems (AUR)
 	pkgver = 0.4
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/omgitsaheadcrab/arch-pkgs
 	arch = any
 	groups = omgitsaheadcrab
@@ -10,7 +10,6 @@ pkgbase = omgitsaheadcrab-base-aur
 	depends = bitwarden-bin
 	depends = bluez-utils-compat
 	depends = brother-mfc-j5330dw
-	depends = dropbox
 	depends = dtach
 	depends = emacs-git
 	depends = gmailieer
