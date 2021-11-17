@@ -1,13 +1,13 @@
 # Maintainer: Tobais Backer Dirks <omgitsaheadcrab@gmail.com>
 pkgname=omgitsaheadcrab-dev-aur
-pkgver=0.3
-pkgrel=2
+pkgver=0.4
+pkgrel=1
 pkgdesc="Development configuration for omgitsaheadcrab systems (AUR)"
 arch=('any')
 url="https://github.com/omgitsaheadcrab/arch-pkgs"
 license=('MIT')
 groups=('omgitsaheadcrab')
 depends=(
-    'bear' 'ccls-git' 'cpr-git' 'nodejs-http-server' 'nodejs-tern'
-    'postman-bin' 'pyenv-virtualenv' 'quicklisp' 'tkdiff' 'ttf-roboto-slab'
+    'bear' 'cpr-git' 'nodejs-http-server' 'nodejs-tern' 'postman-bin'
+    'pyenv-virtualenv' 'quicklisp' 'tkdiff' 'ttf-roboto-slab'
 )

@@ -1,6 +1,6 @@
 # Maintainer: Tobais Backer Dirks <omgitsaheadcrab@gmail.com>
 pkgname=omgitsaheadcrab-base
-pkgver=0.7
+pkgver=0.8
 pkgrel=1
 pkgdesc="Base configuration for omgitsaheadcrab systems"
 arch=('any')
@@ -32,9 +32,9 @@ depends+=(
 
 depends+=(
     'alsa-utils' 'arandr' 'arc-gtk-theme' 'arc-icon-theme'
-    'arch-install-scripts' 'bash-completion' 'biber' 'blueman' 'bluez-utils'
-    'calibre' 'cryptsetup' 'dhcpcd' 'diffutils' 'dunst' 'e2fsprogs'
-    'efibootmgr' 'eog' 'evince' 'exfat-utils' 'feh' 'gimp' 'git'
+    'arch-install-scripts' 'bash-completion' 'biber' 'bitwarden' 'blueman'
+    'bluez-utils' 'calibre' 'cryptsetup' 'dhcpcd' 'diffutils' 'dunst'
+    'e2fsprogs' 'efibootmgr' 'eog' 'evince' 'exfat-utils' 'feh' 'gimp' 'git'
     'gnome-themes-extra' 'gparted' 'grub' 'gsimplecal' 'gtk-engine-murrine'
     'gtk-engines' 'gvfs-smb' 'htop' 'hunspell' 'hunspell-en_GB' 'hunspell-en_US'
     'i3-gaps' 'imagemagick' 'inetutils' 'isync' 'jfsutils' 'keychain' 'less'

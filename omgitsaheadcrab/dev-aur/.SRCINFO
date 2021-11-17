@@ -1,13 +1,12 @@
 pkgbase = omgitsaheadcrab-dev-aur
 	pkgdesc = Development configuration for omgitsaheadcrab systems (AUR)
-	pkgver = 0.3
-	pkgrel = 2
+	pkgver = 0.4
+	pkgrel = 1
 	url = https://github.com/omgitsaheadcrab/arch-pkgs
 	arch = any
 	groups = omgitsaheadcrab
 	license = MIT
 	depends = bear
-	depends = ccls-git
 	depends = cpr-git
 	depends = nodejs-http-server
 	depends = nodejs-tern

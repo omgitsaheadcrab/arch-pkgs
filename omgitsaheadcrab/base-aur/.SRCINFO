@@ -1,6 +1,6 @@
 pkgbase = omgitsaheadcrab-base-aur
 	pkgdesc = Base configuration for omgitsaheadcrab systems (AUR)
-	pkgver = 0.5
+	pkgver = 0.6
 	pkgrel = 1
 	url = https://github.com/omgitsaheadcrab/arch-pkgs
 	arch = any
@@ -9,7 +9,6 @@ pkgbase = omgitsaheadcrab-base-aur
 	depends = archlinux-lxdm-theme-full
 	depends = aurutils
 	depends = betterlockscreen
-	depends = bitwarden-bin
 	depends = bluez-utils-compat
 	depends = brother-mfc-j5330dw
 	depends = dtach

@@ -1,6 +1,6 @@
 # Maintainer: Tobais Backer Dirks <omgitsaheadcrab@gmail.com>
 pkgname=omgitsaheadcrab-base-aur
-pkgver=0.5
+pkgver=0.6
 pkgrel=1
 pkgdesc="Base configuration for omgitsaheadcrab systems (AUR)"
 arch=('any')
@@ -8,7 +8,7 @@ url="https://github.com/omgitsaheadcrab/arch-pkgs"
 license=('MIT')
 groups=('omgitsaheadcrab')
 depends=(
-    'archlinux-lxdm-theme-full' 'aurutils' 'betterlockscreen' 'bitwarden-bin'
+    'archlinux-lxdm-theme-full' 'aurutils' 'betterlockscreen'
     'bluez-utils-compat' 'brother-mfc-j5330dw' 'dtach' 'emacs-git'
     'endpoint-verification-chrome' 'gmailieer' 'google-chrome' 'hardcode-tray'
     'insync' 'nordvpn-bin' 'numix-circle-icon-theme-git' 'polybar' 'rofi-dmenu'

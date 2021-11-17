@@ -1,6 +1,6 @@
 pkgbase = omgitsaheadcrab-base
 	pkgdesc = Base configuration for omgitsaheadcrab systems
-	pkgver = 0.7
+	pkgver = 0.8
 	pkgrel = 1
 	url = https://github.com/omgitsaheadcrab/arch-pkgs
 	install = omgitsaheadcrab-base.install
@@ -70,6 +70,7 @@ pkgbase = omgitsaheadcrab-base
 	depends = arch-install-scripts
 	depends = bash-completion
 	depends = biber
+	depends = bitwarden
 	depends = blueman
 	depends = bluez-utils
 	depends = calibre
