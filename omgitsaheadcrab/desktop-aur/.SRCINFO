@@ -1,6 +1,6 @@
 pkgbase = omgitsaheadcrab-desktop-aur
 	pkgdesc = Desktop configuration for omgitsaheadcrab systems (AUR)
-	pkgver = 0.5
+	pkgver = 0.6
 	pkgrel = 1
 	url = https://github.com/omgitsaheadcrab/arch-pkgs
 	arch = any
@@ -9,6 +9,5 @@ pkgbase = omgitsaheadcrab-desktop-aur
 	depends = bcm20702a1-firmware
 	depends = btchip-udev
 	depends = phoronix-test-suite
-	depends = plex-media-server
 
 pkgname = omgitsaheadcrab-desktop-aur

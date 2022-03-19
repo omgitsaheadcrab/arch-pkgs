@@ -1,6 +1,6 @@
 # Maintainer: Tobais Backer Dirks <omgitsaheadcrab@gmail.com>
 pkgname=omgitsaheadcrab-desktop-aur
-pkgver=0.5
+pkgver=0.6
 pkgrel=1
 pkgdesc="Desktop configuration for omgitsaheadcrab systems (AUR)"
 arch=('any')
@@ -9,5 +9,4 @@ license=('MIT')
 groups=('omgitsaheadcrab')
 depends=(
     'bcm20702a1-firmware' 'btchip-udev' 'phoronix-test-suite'
-    'plex-media-server'
 )
