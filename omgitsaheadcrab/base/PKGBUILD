@@ -1,6 +1,6 @@
 # Maintainer: Tobais Backer Dirks <omgitsaheadcrab@gmail.com>
 pkgname=omgitsaheadcrab-base
-pkgver=0.8
+pkgver=0.9
 pkgrel=1
 pkgdesc="Base configuration for omgitsaheadcrab systems"
 arch=('any')
@@ -41,18 +41,19 @@ depends+=(
     'libreoffice-fresh' 'linux' 'linux-firmware' 'linux-headers' 'llvm'
     'logrotate' 'lostfiles' 'lshw' 'luit' 'lvm2' 'lxappearance' 'lxdm-gtk3'
     'maim' 'man-db' 'man-pages' 'micro' 'mtools' 'namcap' 'nano' 'nemo'
-    'nemo-fileroller' 'nemo-share' 'neofetch' 'netctl' 'network-manager-applet'
-    'networkmanager' 'nitrogen' 'notmuch' 'noto-fonts' 'noto-fonts-cjk'
-    'noto-fonts-emoji' 'noto-fonts-extra' 'ntp' 'openmp' 'openssh'
-    'pacman-contrib' 'pavucontrol' 'perl-anyevent-i3' 'picom' 'playerctl'
-    'polkit-gnome' 'pulseaudio' 'pulseaudio-alsa' 'pulseaudio-bluetooth'
-    'pulseaudio-equalizer' 'pulseaudio-jack' 'pulseaudio-lirc'
-    'pulseaudio-zeroconf' 'qbittorrent' 'rclone' 'reflector' 'reiserfsprogs'
-    'rofi' 'rsync' 'samba' 'screen' 'scrot' 'simplescreenrecorder' 'sysfsutils'
-    'terminator' 'terminus-font' 'ttf-dejavu' 'ttf-droid' 'ttf-font-awesome'
-    'ttf-hack' 'ttf-ionicons' 'ttf-liberation' 'udisks2' 'unrar' 'unzip' 'vlc'
-    'wget' 'wine' 'winetricks' 'xclip' 'xdg-user-dirs' 'xfsprogs' 'xorg-twm'
-    'xorg-xclock' 'xorg-xinit' 'xsel' 'zip'
+    'nemo-fileroller' 'nemo-share' 'neofetch' 'netctl' 'net-tools'
+    'network-manager-applet' 'networkmanager' 'nitrogen' 'notmuch' 'noto-fonts'
+    'noto-fonts-cjk' 'noto-fonts-emoji' 'noto-fonts-extra' 'ntp' 'openmp'
+    'openssh' 'pacman-contrib' 'pavucontrol' 'perl-anyevent-i3' 'picom'
+    'playerctl' 'polkit-gnome' 'pulseaudio' 'pulseaudio-alsa'
+    'pulseaudio-bluetooth' 'pulseaudio-equalizer' 'pulseaudio-jack'
+    'pulseaudio-lirc' 'pulseaudio-zeroconf' 'qbittorrent' 'rclone' 'reflector'
+    'reiserfsprogs' 'rofi' 'rsync' 'samba' 'screen' 'scrot'
+    'simplescreenrecorder' 'sysfsutils' 'terminator' 'terminus-font'
+    'ttf-dejavu' 'ttf-droid' 'ttf-font-awesome' 'ttf-hack' 'ttf-ionicons'
+    'ttf-liberation' 'udisks2' 'unrar' 'unzip' 'vlc' 'wget' 'wine' 'winetricks'
+    'xclip' 'xdg-user-dirs' 'xfsprogs' 'xorg-twm' 'xorg-xclock' 'xorg-xinit'
+    'xsel' 'zip'
 )
 
 package() {
